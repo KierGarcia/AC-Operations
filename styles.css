@@ -19,3 +19,7 @@
 .form-status{display:none;border-radius:14px;background:#f3ead9;color:#2b2418;padding:13px 14px;font-weight:700;text-align:center}
 .form-status.is-visible{display:block}
 @media(max-width:700px){.form-row{grid-template-columns:1fr}.hero-logo{width:112px;height:112px}.brand-logo{width:40px;height:40px}}
+
+/* Our Story dark content overrides */
+.dark .content p{color:rgba(255,255,255,.92);}
+.dark .content h2{color:#fff;}
