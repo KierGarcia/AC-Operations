@@ -26,7 +26,8 @@
 
 /* Mobile contrast and readability fixes */
 @media(max-width:700px){
-  .section .content p{color:#24323f;line-height:1.7;font-size:1.05rem}
+  .section:not(.dark) .content p{color:#24323f;line-height:1.7;font-size:1.05rem}
+  .section.dark .content p{color:rgba(255,255,255,.92);line-height:1.7;font-size:1.05rem}
   .card, .profile{color:var(--ink)}
   .story-feature img{filter:brightness(.94)}
 }
