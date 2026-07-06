@@ -30,4 +30,7 @@
   .section.dark .content p{color:rgba(255,255,255,.92);line-height:1.7;font-size:1.05rem}
   .card, .profile{color:var(--ink)}
   .story-feature img{filter:brightness(.94)}
+  /* Ensure list bullets follow the same readable color on mobile */
+  .section:not(.dark) ul, .section:not(.dark) .card ul{color:#24323f}
+  .section.dark ul, .section.dark .card ul{color:rgba(255,255,255,.88)}
 }
